@@ -58,3 +58,28 @@ a {
 .box a {
   color: blue;
 }
+
+.card {
+  display: inline-block;
+}
+
+
+.twitter-icon::before {
+  color: #00aced;
+  font-family: fontawesome;
+  content: "\f099";
+  margin: 0;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.youtube-icon::before {
+  color: #da1725;
+  font-family: fontawesome;
+  content: "\f431";
+  margin: 0;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
